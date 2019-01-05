@@ -2,6 +2,7 @@ node (){
    echo 'Hello World'
    stage('1'){
        echo'stage1'
+       git=https://github.com/bharadwaj94/firstexample.git
     }
     stage('2'){
         echo'this is 2nd stage'
